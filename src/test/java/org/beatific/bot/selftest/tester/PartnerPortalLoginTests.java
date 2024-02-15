@@ -52,8 +52,8 @@ public class PartnerPortalLoginTests {
                 HtmlForm form= formpage.getFormByName("sso");
                 HtmlTextInput idInput = form.getInputByName("USER");
                 HtmlPasswordInput pwInput = (HtmlPasswordInput)form.getInputByName("PASSWORD");
-                idInput.type("UK573");
-                pwInput.type("Q!w2e3r4t5y6");
+                idInput.type("UX533");
+                pwInput.type("q1w2e3r4__");
 
                 HtmlAnchor submitButton =  form.getFirstByXPath("//a[@class='submit']");
                 // submitButton.click();

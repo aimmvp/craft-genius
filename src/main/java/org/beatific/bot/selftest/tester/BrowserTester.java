@@ -19,9 +19,8 @@ import com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class BrowserTester implements Tester {
+public class BrowserTester {
 
-    @Override
     public boolean test() {
         
         try(WebClient webClient = new WebClient()) {
